@@ -29,6 +29,7 @@ m4_include([lib-bundled.m4])
 m4_include([lib-cups.m4])
 m4_include([lib-ffi.m4])
 m4_include([lib-freetype.m4])
+m4_include([lib-krb5.m4])
 m4_include([lib-std.m4])
 m4_include([lib-x11.m4])
 m4_include([lib-fontconfig.m4])
@@ -100,6 +101,7 @@ AC_DEFUN_ONCE([LIB_SETUP_LIBRARIES],
   LIB_SETUP_FONTCONFIG
   LIB_SETUP_FREETYPE
   LIB_SETUP_ALSA
+  LIB_SETUP_KRB5
   LIB_SETUP_LIBFFI
   LIB_SETUP_BUNDLED_LIBS
   LIB_SETUP_MISC_LIBS
